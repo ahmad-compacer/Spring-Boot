@@ -11,6 +11,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(path="/v1") 
 public class MainController {
   @Autowired
-  public static AccountsRepository accountsRepository;
-	 
+  public static AccountsRepository accountsRepository; 
 }
